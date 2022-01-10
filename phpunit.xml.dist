@@ -2,7 +2,7 @@
 
 <phpunit bootstrap="vendor/autoload.php" colors="true">
     <testsuites>
-        <testsuite name="Runalyze common">
+        <testsuite name="Libralyze common">
             <directory suffix="Test.php">./src/Tests/</directory>
         </testsuite>
     </testsuites>

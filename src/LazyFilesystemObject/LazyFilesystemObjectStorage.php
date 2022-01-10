@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Runalyze Common.
+ * This file is part of the Libralyze\Common.
  *
  * (c) RUNALYZE <mail@runalyze.com>
  *
@@ -9,12 +9,12 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Runalyze\Common\LazyFilesystemObject;
+namespace Libralyze\Common\LazyFilesystemObject;
 
 use League\Flysystem\Filesystem;
 use ProxyManager\Configuration;
 use ProxyManager\Factory\LazyLoadingValueHolderFactory;
-use Runalyze\Common\BsonSerializable\BsonSerializableInterface;
+use Libralyze\Common\BsonSerializable\BsonSerializableInterface;
 
 class LazyFilesystemObjectStorage
 {

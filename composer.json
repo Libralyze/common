@@ -1,6 +1,6 @@
 {
-  "name": "runalyze/common",
-  "description": "Common classes of Runalyze",
+  "name": "libralyze/common",
+  "description": "Common classes of Libralyze",
   "license": "MIT",
   "require": {
     "php": ">=5.5.9",
@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Runalyze\\Common\\": "src/"
+      "Libralyze\\Common\\": "src/"
     }
   }
 }

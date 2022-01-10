@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Runalyze Common.
+ * This file is part of the Libralyze\Common.
  *
  * (c) RUNALYZE <mail@runalyze.com>
  *
@@ -9,13 +9,13 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Runalyze\Common\Tests\LazyFilesystemObject;
+namespace Libralyze\Common\Tests\LazyFilesystemObject;
 
 use League\Flysystem\Filesystem;
 use League\Flysystem\Memory\MemoryAdapter;
-use Runalyze\Common\LazyFilesystemObject\DefaultHashToPathMapper;
-use Runalyze\Common\LazyFilesystemObject\LazyFilesystemObjectStorage;
-use Runalyze\Common\Tests\BsonSerializable\FakeFooBarObject;
+use Libralyze\Common\LazyFilesystemObject\DefaultHashToPathMapper;
+use Libralyze\Common\LazyFilesystemObject\LazyFilesystemObjectStorage;
+use Libralyze\Common\Tests\BsonSerializable\FakeFooBarObject;
 
 class LazyFilesystemObjectStorageTest extends \PHPUnit_Framework_TestCase
 {

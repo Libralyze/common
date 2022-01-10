@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Runalyze Common.
+ * This file is part of the Libralyze\Common.
  *
  * (c) RUNALYZE <mail@runalyze.com>
  *
@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Runalyze\Common\Enum;
+namespace Libralyze\Common\Enum;
 
 class AbstractEnum_MockTester extends AbstractEnum
 {

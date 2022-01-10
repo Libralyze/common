@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Runalyze Common.
+ * This file is part of the Libralyze\Common.
  *
  * (c) RUNALYZE <mail@runalyze.com>
  *
@@ -9,9 +9,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Runalyze\Common\Tests\BsonSerializable;
+namespace Libralyze\Common\Tests\BsonSerializable;
 
-use Runalyze\Common\BsonSerializable\AbstractBsonSerializableObject;
+use Libralyze\Common\BsonSerializable\AbstractBsonSerializableObject;
 
 class FakeFooBarObject extends AbstractBsonSerializableObject
 {
